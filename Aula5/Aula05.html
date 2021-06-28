@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS3 Metal menu with icons | Script Tutorials</title>
+
+        <link rel="stylesheet" href="css/layout.css" type="text/css"  >
+        <link rel="stylesheet" href="css/menu.css" type="text/css" >
+    </head>
+    <body>
+ 
+     <center><h1>Links no HTML
+</h1></center>
+
+<p>Links são normalmente utilizados para direcionar o usuário para outras páginas, ou para outras partes da mesma página. Nos dois casos, utilizamos a tag a, que possui o atributo href no qual indicamos o destino daquele link.</p>
+
+<p>A Listagem 5 mostra como adicionar um link para outra página, neste caso, indicada pelo arquivo pagina2.html.</p>
+
+
+<br>
+Listagem 1: <br>
+<img src="images/listagem6.jpg"/> <br><br>
+
+
+<p>Já a Listagem 6 mostra como adicionar um link para um elemento na mesma página. Nesse caso, ao clicar no link o browser mudará o foco para o elemento que possui o atributo id igual àquele indicado no href.</p>
+
+<img src="images/listagem7.jpg"/> <br><br>
+
+<p>Note também que nesse caso o href requer ainda o sinal de cerquilha (#) antes do id do elemento que será o foco do link.</p>
+<br>
+<br><br><br>
+
+<h1>Manipulando links:</h1>
+
+<p>
+
+1- Abrindo o link em uma nova aba:
+Para abrir um link em uma nova aba vamos utilizar o comando target com o valor igual a _blank (abre o link em uma nova aba do navegador).
+Exemplo:</p>
+
+<img src="images/exemplo02.jpg"/> <br><br>
+
+<h1>Links para e-mails:</h1>
+
+<h1>Título em links:</h1>
+
+<p>
+
+Assim como em imagens, também podemos usar o comando title em links. Esse comando exibe um texto, pré-definido como seu valor, no exato instante que o usuário deixar o mouse alguns segundos sobre o link.
+Exemplo:
+
+</p>
+
+<img src="images/exemplo3.jpg"/> <br><br>
+
+<h1>Links entre páginas de um mesmo site:</h1>
+
+
+<p>
+
+Para criar links entre páginas de um mesmo site, não é comum usar-se o link completo de uma página ou arquivo, mas sim o seu nome, e sua respectiva localização nos diretórios (pastas) de um site.
+Vamos supor que você tenha duas páginas HTML em uma mesma pasta, uma com o nome de pagina1.html, e outra com o nome de pagina2.html.
+
+Para criar um link para páginas que estão no mesmo diretório, basta indicar no comando href o nome da página a qual o link se refere.
+Observe abaixo um exemplo de um link que está na página um, apontando para a página dois.
+Exemplo:
+
+</p>
+
+<img src="images/exemplo4.jpg"/> <br><br>
+
+<p>
+Agora vamos criar uma nova pasta em seu site, chamada de subpasta, e colocar a pagina2.html dentro desta pasta.
+Nesta situação, para criar um link na página um que aponte para a página dois, você deve além de indicar o nome do arquivo, indicar também o nome da pasta seguido de uma barra (/).
+Exemplo:
+
+</p>
+
+<img src="images/exemplo5.jpg"/> <br><br>
+
+<p>
+Já neste caso, se quisermos criar um link na página dois que aponte para a página um, devemos colocar um prefixo na URL(endereço), que indique ao navegador para voltar uma pasta, porque a página um está fora da subpasta. O prefixo é ../ (um diretório acima).
+Exemplo:
+
+</p>
+
+<img src="images/exemplo6.jpg"/> <br><br>
+
+
+<p>
+OBS.: Para voltar mais de uma pasta, apenas repita o prefixo no mesmo número de pastas que deseja voltar (EX.: ../../).
+
+</p>
+
+<h1>Links internos (âncoras):</h1>
+<p>
+
+Vamos supor que temos uma página que tenha um texto muito grande, com vários capítulos. Você poderá criar um índice com links que levam o usuário até os capítulos específicos.
+Para que isso seja possível, além de criar um link você precisa colocar uma referência aos capítulos, para isso usa-se o comando id. É importante observar que o valor do comando não pode conter acentos, espaços e também não pode iniciar com números.
+Você pode utilizar o comando id com diversas tags HTML, mas para esse exemplo escolhi a tag <"h1">, cuja mesma expliquei na postagem “Formatando textos com HTML”.
+Após ter colocado uma referência ao capítulo ou parte do texto ao qual deseja apontar uma âncora, você deve colocar no comando href um cerquilha (#), seguido do valor atribuído anteriormente ao comando id.
+Exemplo:
+
+</p>
+<img src="images/exemplo7.jpg"/> <br><br>
+
+<h1>Linkando imagens:</h1>
+<p>
+
+Além de linkar textos, você também pode linkar imagens, e qualquer outra tag ou elemento HTML.
+Exemplo:
+</p>
+<br>
+<img src="images/exemplo8.jpg"/> <br><br>
+
+
+
+
+
+Além de criar links para outras páginas, você também pode criar um link para um e-mail, que quando acionado abre imediatamente o seu serviço de gerenciamento de e-mails padrão (no meu caso o Outlook).
+Para criar um link para um e-mail, apenas coloque como valor do comando href o prefixo mailto (em português, e-mail para), seguido de dois pontos (:), mais o endereço de email.
+Exemplo:
+</p>
+
+
+
+
+
+
+        <footer>
+            <h2>Cadeira de Desenvolvimento WEB</h2>
+           <a href="https://www.youtube.com/channel/UCVxBiIkuy6kyILkI10yacMQ" class="stuts">Aprendendo HTML5 com professor  <span>Sandro Mesquita</span></a> 
+
+         
+        </footer>
+    </body>
+</html>
